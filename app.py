@@ -17,5 +17,17 @@ def index():
 def months():
     return render_template("page2.html")
 
+@app.route('/1month')
+def months():
+    return render_template("page3.html")
+
+@app.route('/100days')
+def months():
+    return render_template("page4.html")
+
+@app.route('/invite')
+def months():
+    return render_template("page5.html")
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
