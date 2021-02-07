@@ -18,15 +18,15 @@ def months():
     return render_template("page2.html")
 
 @app.route('/1month')
-def months():
+def month():
     return render_template("page3.html")
 
 @app.route('/100days')
-def months():
+def days():
     return render_template("page4.html")
 
 @app.route('/invite')
-def months():
+def invite():
     return render_template("page5.html")
 
 if __name__ == '__main__':
