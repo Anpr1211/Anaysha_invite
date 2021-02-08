@@ -29,5 +29,9 @@ def days():
 def invite():
     return render_template("page5.html")
 
+@app.route('/venue')
+def venue():
+    return render_template("page6.html")
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
